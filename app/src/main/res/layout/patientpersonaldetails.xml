@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="Firstname"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/pdfirstname"
+        android:padding="4dp"
+        android:fontFamily="@font/lato_black"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patient Name"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="Middlename"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/pdmiddlename"
+        android:padding="4dp"
+        android:fontFamily="@font/lato_black"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patient Name"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="Lastname"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/pdlastname"
+        android:padding="4dp"
+        android:fontFamily="@font/lato_black"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patient Name"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="Age"/>
+    <TextView
+        android:id="@+id/pdage"
+        android:padding="4dp"
+        android:fontFamily="@font/lato_black"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patient Age"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="Sex"/>
+    <TextView
+        android:id="@+id/pdsex"
+        android:padding="4dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato_black"
+        android:text="Patient Sex"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="Contact Number"/>
+    <TextView
+        android:id="@+id/pdcontact"
+        android:padding="4dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato_black"
+        android:text="Patient Contact Number"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="Birthday"/>
+    <TextView
+        android:id="@+id/pdbday"
+        android:padding="4dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:fontFamily="@font/lato_black"
+        android:layout_height="wrap_content"
+        android:text="Patient Birthday"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="Email"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/pdemail"
+        android:padding="4dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:fontFamily="@font/lato_black"
+        android:layout_height="wrap_content"
+        android:text="Patient Email"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="Complete Address"/>
+    <TextView
+        android:id="@+id/pdaddress"
+        android:padding="4dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:fontFamily="@font/lato_black"
+        android:layout_height="wrap_content"
+        android:text="Patient Complete Address"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="Occupation"/>
+    <TextView
+        android:id="@+id/pdoccu"
+        android:padding="4dp"
+        android:fontFamily="@font/lato_black"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patient Occupation"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="Location of Work"/>
+    <TextView
+        android:id="@+id/pdloc"
+        android:padding="4dp"
+        android:fontFamily="@font/lato_black"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+</LinearLayout>

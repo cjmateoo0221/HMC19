@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/search1"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Search"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView"/>
+
+    <item android:id="@+id/sort"
+        android:icon="@drawable/sort"
+        android:title="Search"
+        app:showAsAction="always">
+        <menu>
+        <item android:id="@+id/severe"
+            android:title="Severe"/>
+
+            <item android:id="@+id/mild"
+                android:title="Mild"/>
+            <item android:id="@+id/moderate"
+                android:title="Moderate"/>
+            <item android:id="@+id/nosymp"
+                android:title="No Symptom"/>
+
+        </menu>
+    </item>
+
+
+</menu>

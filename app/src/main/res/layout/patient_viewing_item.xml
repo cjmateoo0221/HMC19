@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TableLayout
+        android:id="@+id/tbldata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark">
+        <TableRow android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:id="@+id/tvf_patient"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="10sp"
+                android:fontFamily="@font/lato_black"
+                android:text="PATIENT NUMBER"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:text="First Name"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvf_firstname"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="Yes"
+                android:fontFamily="@font/lato_black"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:text="Middle Name"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvf_middlename"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="Yes"
+                android:fontFamily="@font/lato_black"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:text="Last Name"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvf_lastname"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="Yes"
+                android:fontFamily="@font/lato_black"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+
+                android:gravity="center"
+                android:text="Age"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvf_age"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:fontFamily="@font/lato_black"
+                android:text="Yes"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:text="Birthday"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvf_birthday"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="Yes"
+                android:fontFamily="@font/lato_black"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:text="Sex"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvf_sex"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="Yes"
+                android:fontFamily="@font/lato_black"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+
+                android:gravity="center"
+                android:text="Contact Number"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvf_contact"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="Yes"
+
+                android:fontFamily="@font/lato_black"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+        <TableRow android:background="@color/white">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+
+                android:gravity="center"
+                android:text="Email"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvf_email"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="Yes"
+                android:fontFamily="@font/lato_black"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+        <TableRow android:background="@color/white">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:text="Barangay"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvf_barangay"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="Yes"
+                android:fontFamily="@font/lato_black"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:text="Complete Address"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvf_address"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="Yes"
+                android:fontFamily="@font/lato_black"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:text="Occupation"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvf_occupation"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:fontFamily="@font/lato_black"
+                android:text="Yes"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:text="Location of Work"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvf_locofwork"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="Yes"
+                android:fontFamily="@font/lato_black"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:text="No.of Person In Household"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvf_household"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="Yes"
+                android:fontFamily="@font/lato_black"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:text="Other Health Condition"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvf_healthcond"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:fontFamily="@font/lato_black"
+                android:text="Yes"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+        <TableRow android:background="@color/white">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:text="Date of Positive Swab Test"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvf_swab"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="Yes"
+                android:fontFamily="@font/lato_black"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+        <TableRow android:background="@color/white">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:text="Is Patient a PWD?"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvf_pwd"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="Yes"
+                android:fontFamily="@font/lato_black"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+        <TableRow android:background="@color/white">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:text="Type of Disability"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvf_disability"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="Yes"
+                android:fontFamily="@font/lato_black"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+        <TableRow android:background="@color/white">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:text="Is Patient a Senior Citizen?"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvf_senior"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="Yes"
+                android:fontFamily="@font/lato_black"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:text="Vaccine Status"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvf_vaccine"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="Yes"
+                android:fontFamily="@font/lato_black"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:text="Close Contacts"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvf_clcontact"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:fontFamily="@font/lato_black"
+                android:text="Yes"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:text="No. of times Infected"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvf_infected"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:fontFamily="@font/lato_black"
+                android:text="Yes"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:text="Patient Username"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvf_puser"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="Yes"
+                android:fontFamily="@font/lato_black"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:text="Patient Password"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvf_ppass"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:fontFamily="@font/lato_black"
+                android:text="Yes"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:text="Patient Reference Number"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvf_ref"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:fontFamily="@font/lato_black"
+                android:text="Yes"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:text="Date Added"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvf_dateadd"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:fontFamily="@font/lato_black"
+                android:text="Yes"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:text="Date Ended"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvf_dateend"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="Yes"
+                android:fontFamily="@font/lato_black"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </TableRow>
+    </TableLayout>
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tbldata"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/round_bg"
+            android:text="Edit" />
+
+        <Button
+            android:id="@+id/btnePDF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnEdit"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_bg"
+            android:text="Export this data to PDF" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_below="@id/btnePDF"
+            android:background="@android:color/black" />
+    </RelativeLayout>
+
+    </ScrollView>
+
+</androidx.cardview.widget.CardView>

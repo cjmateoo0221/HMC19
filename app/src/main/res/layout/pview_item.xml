@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="6dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:id="@+id/rl_pviewpatient"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/img_picon"
+            android:layout_width="103dp"
+            android:layout_height="104dp"
+            android:src="@drawable/patienticon" />
+
+        <TextView
+            android:id="@+id/txt_pnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@+id/img_picon"
+            android:fontFamily="@font/lato_black"
+            android:padding="4dp"
+            android:text="Patient Number:"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/pview_pnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@+id/txt_pnum"
+            android:fontFamily="@font/lato_black"
+            android:padding="4dp"
+            android:text="P-20220042"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/txt_pname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/img_picon"
+            android:layout_below="@+id/txt_pnum"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/lato_black"
+            android:padding="4dp"
+            android:text="Patient Name:"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/pview_pname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pview_pnum"
+            android:layout_marginLeft="20sp"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@+id/txt_pname"
+            android:fontFamily="@font/lato_black"
+            android:padding="4dp"
+            android:text="Cj Mateo"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/txt_age"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@+id/img_picon"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_pname"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/lato_black"
+            android:padding="4dp"
+            android:text="Patient Age:"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/pview_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pview_pname"
+            android:layout_marginLeft="32dp"
+            android:layout_toRightOf="@+id/txt_age"
+            android:fontFamily="@font/lato_black"
+            android:padding="4dp"
+            android:text="23"
+            android:textColor="@color/colorPrimary" />
+
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

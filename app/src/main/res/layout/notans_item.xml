@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="6dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/not_pnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_black"
+            android:padding="4dp"
+            android:layout_marginBottom="10dp"
+            android:text="P-20220042"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/not_pname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/not_pnum"
+            android:fontFamily="@font/lato_black"
+            android:padding="4dp"
+            android:text="Cj Mateo"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/not_contactnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/not_pname"
+            android:fontFamily="@font/lato_black"
+            android:padding="4dp"
+            android:text="09090435307"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+        <ImageView
+            android:id="@+id/img_answered"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="50dp"
+            android:src="@drawable/not_done" />
+
+        <Button
+            android:id="@+id/btn_notify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_answered"
+            android:layout_alignParentEnd="true"
+            android:text="Notify Patient" />
+
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
