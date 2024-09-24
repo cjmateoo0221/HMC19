@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/img_closepwdinfo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/clear_sort" />
+
+        <TextView
+            android:id="@+id/txt_exportop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_black"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="Types of Disability"
+            android:textColor="#FFF" />
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:padding="6dp"
+                android:text="Psychosocial Disability - any acquired behavioral, cognitive, emotional, social impairment that limits one or more activities necessary for effective interpersonal transactions and other civilizing process or activities for daily living, such as but not limited to deviancy or anti-social behavior."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:padding="6dp"
+                android:text="Chronic Illness — a collection of long-term health problems It may worsen gradually over time, become permanent, or result in death. It has the potential to alter the body permanently, as well as the person's quality of life."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:padding="6dp"
+                android:text="Learning Disability — any disorder in one or more of the basic psychological processes (perception, comprehension, thinking, etc.) involved in understanding or in using spoken or written language."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:padding="6dp"
+                android:text="Mental Disability — organic brain condition (i.e., mental retardation, acquired central nervous system lesions, or dementia) and/or mental disease impairment (psychotic or non-psychotic disorder)."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:padding="6dp"
+                android:text="Visual Disability — Visual acuity in the better eye of less than 6/18 for low vision and 3/60 for blindness, or a visual field of fewer than 10 degrees from the point of fixation, even after therapy and/or routine refractive correction. Legal blindness is defined as a specific amount of visual impairment. When the best corrected central visual acuity in the better eye is 6/60 or worse, or when side vision in the better eye is 20 degrees or less, one is legally blind."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:padding="6dp"
+                android:text="Orthopedic Disability — disability in the normal functioning of the joints, muscles or limbs."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:padding="6dp"
+                android:text="Communication Disability — a total or partial loss of hearing function that obstructs the communication process essential to language, educational, social, and/or cultural interaction; and (b) Speech and Language Impairment means one or more speech/language disorders of voice, articulation, rhythm, and/or the receptive or expressive processes of language."
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
