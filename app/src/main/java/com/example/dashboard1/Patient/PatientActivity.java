@@ -88,7 +88,7 @@ public class PatientActivity extends AppCompatActivity {
     String user, pass;
     public static String atoken;
     Fragment selectedfragment;
-    public static String serverKey = "AAAANWe06Ic:APA91bFiJzEsVjD9EZaYxytLPKPxI2S7CNhTKZPO9J9P_51RXWdxpQY-e5pc-70fvSQpgNqUW0wkLupvedA15lcRb1v8RoqagstPnm1iNLE-92fRWIswOUQ1ahnbClSSXgdRNpZPiz10";
+    public static String serverKey = "Your server key here";
     String username;
     long not1, not2;
     homefragment fragment = new homefragment();

@@ -65,7 +65,7 @@ public class Admin_PatientMonitoringActivity extends AppCompatActivity {
     AlertDialog alert11;
     public static Context context;
     public static Activity activity;
-    public static String serverKey = "AAAANWe06Ic:APA91bFiJzEsVjD9EZaYxytLPKPxI2S7CNhTKZPO9J9P_51RXWdxpQY-e5pc-70fvSQpgNqUW0wkLupvedA15lcRb1v8RoqagstPnm1iNLE-92fRWIswOUQ1ahnbClSSXgdRNpZPiz10";
+    public static String serverKey = "Your server key here";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
