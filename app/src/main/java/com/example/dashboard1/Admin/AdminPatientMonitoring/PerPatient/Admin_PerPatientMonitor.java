@@ -39,7 +39,7 @@ public class Admin_PerPatientMonitor extends AppCompatActivity {
     TextView pname, nodata;
     Button btnSendFCM;
     ppAdapter mainAdapter;
-    private static String serverkey = "AAAANWe06Ic:APA91bFiJzEsVjD9EZaYxytLPKPxI2S7CNhTKZPO9J9P_51RXWdxpQY-e5pc-70fvSQpgNqUW0wkLupvedA15lcRb1v8RoqagstPnm1iNLE-92fRWIswOUQ1ahnbClSSXgdRNpZPiz10";
+    private static String serverkey = "your server key here";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

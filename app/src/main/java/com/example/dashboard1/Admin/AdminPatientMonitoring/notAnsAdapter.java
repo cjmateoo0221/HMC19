@@ -98,7 +98,7 @@ public class notAnsAdapter extends FirebaseRecyclerAdapter<notAnsModel, notAnsAd
     DateFormat df = new SimpleDateFormat("MM.dd.yyyy 'at' hh:mm:ss aa");
     String date1 = df.format(Calendar.getInstance().getTime());
     String date = new SimpleDateFormat("MM-dd-yyyy", Locale.getDefault()).format(new Date());
-    public static String serverKey = "AAAANWe06Ic:APA91bFiJzEsVjD9EZaYxytLPKPxI2S7CNhTKZPO9J9P_51RXWdxpQY-e5pc-70fvSQpgNqUW0wkLupvedA15lcRb1v8RoqagstPnm1iNLE-92fRWIswOUQ1ahnbClSSXgdRNpZPiz10";
+    public static String serverKey = "Your server key here";
     /**
      * Initialize a {@link RecyclerView.Adapter} that listens to a Firebase query. See
      * {@link FirebaseRecyclerOptions} for configuration options.
